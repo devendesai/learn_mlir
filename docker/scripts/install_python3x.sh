@@ -12,6 +12,7 @@ export DEBIAN_FRONTEND=noninteractive
 apt-get install -y --upgrade $PYTHON_3X
 apt-get install -y $PYTHON_3X-dev
 apt-get install -y $PYTHON_3X-distutils
+apt-get install -y python3-apt
 apt-get install -y python3-pip
 
 ln -sf /usr/bin/$PYTHON_3X /usr/local/bin/$PYTHON_3X
